@@ -5,6 +5,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Movement variables
+    public float xSpeed = 5f;
+    float xVector = 0f;
+    float xdirection;
+    float ydirection;
+    float yspeed;
+
+
     public bool overworld; 
 
     private void Start()
